@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Function Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multi-Function Tool</h1>
+
+        <!-- Section 1: Reverse String -->
+        <section>
+            <h2>1. Reverse a String</h2>
+            <input type="text" id="inputString" placeholder="Enter a string">
+            <button onclick="reverseString()">Reverse String</button>
+            <p id="outputReverse"></p>
+        </section>
+
+        <!-- Section 2: Palindrome Check -->
+        <section>
+            <h2>2. Check for Palindrome</h2>
+            <input type="text" id="inputPalindrome" placeholder="Enter a series of numbers">
+            <button onclick="checkPalindrome()">Check Palindrome</button>
+            <p id="outputPalindrome"></p>
+        </section>
+
+        <!-- Section 3: Tip Calculator -->
+        <section>
+            <h2>3. Tip Calculator</h2>
+            <input type="number" id="subtotal" placeholder="Subtotal">
+            <input type="number" id="tipPercent" placeholder="Tip %">
+            <button onclick="calculateTip()">Calculate Total</button>
+            <p id="outputTip"></p>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
